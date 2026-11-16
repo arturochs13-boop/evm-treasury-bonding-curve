@@ -1,0 +1,26 @@
+# Foundry
+out/
+cache/
+broadcast/
+forge-cache/
+
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Coverage and gas reports
+lcov.info
+coverage/
+gas-report.txt
